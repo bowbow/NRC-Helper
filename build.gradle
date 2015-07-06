@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+repositories {
+	jcenter()
+	mavenCentral()
+}
+
+
+
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        compile group: 'com.sahlbach.gradle', name: 'gradle-jetty-eclipse-plugin', version: '1.9.+'	
+    }
+
+
+
+
